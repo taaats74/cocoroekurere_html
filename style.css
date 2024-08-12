@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/* リセットCSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5要素の表示をブロックレベルに設定 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 画像のボーダーを削除 */
+img {
+  border-style: none;
+}
+
+/* リンクのテキスト装飾をリセット */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* フォーム要素の外観をリセット */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* ボタンと入力タイプをリセット */
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+body {
+  font-family: "TsukuARdGothic-Regular", sans-serif;
+  color: #483b35;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+header .container {
+  width: 95%;
+  max-width: 1400px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 10;
+}
+header .container .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container .wrapper h1 {
+  width: 270px;
+}
+header .container .wrapper nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container .wrapper nav ul li {
+  margin-left: 20px;
+}
+header .container .wrapper nav ul li a {
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header .container .wrapper nav ul li:hover a {
+  opacity: 0.7;
+}
+
+.fv .container .wrapper {
+  position: relative;
+}
+.fv .container .wrapper .mv {
+  width: 70%;
+}
+.fv .container .wrapper .text-wrapper {
+  position: absolute;
+  top: 31%;
+  right: 12%;
+}
+.fv .container .wrapper .text-wrapper img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.fv .container .wrapper .text-wrapper h2 span {
+  display: inline-block;
+  font-size: clamp(2em, 2.3vw, 5.5em);
+  padding: 10px 20px;
+  color: white;
+  background: #f3a57f;
+  border-radius: 5px;
+}
+.fv .container .wrapper .text-wrapper h2 span.first {
+  margin-top: 10px;
+  padding: 10px 40px 10px 20px;
+}
+.fv .container .wrapper .text-wrapper h2 span.second {
+  margin-top: 20px;
+}
+.fv .container .wrapper .footprint {
+  width: 35%;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+.fv .container .wrapper .fv-banner {
+  width: 11%;
+  position: absolute;
+  right: 6%;
+  bottom: 1%;
+}/*# sourceMappingURL=style.css.map */

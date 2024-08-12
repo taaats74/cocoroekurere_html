@@ -1,0 +1,104 @@
+body {
+  font-family: 'TsukuARdGothic-Regular', sans-serif;
+  color: #483b35;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+header{
+  .container{
+    width: 95%;
+    max-width: 1400px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10;
+    .wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1{
+        width: 270px;
+      }
+      nav{
+        ul{
+          display: flex;
+          align-items: center;
+          li{
+            margin-left: 20px;
+            a{
+              font-weight: bold;
+              letter-spacing: 2px;
+              transition: .3s;
+            }
+            &:hover{
+              a{
+                opacity: .7;
+                // color: #f3a57f;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.fv{
+  .container{
+    .wrapper{
+      position: relative;
+      .mv{
+        width: 70%;
+      }
+      .text-wrapper{
+        position: absolute;
+        top: 31%;
+        right: 12%;
+        img{
+          width: 90%;
+          display: block;
+          margin: 0 auto;
+        }
+        h2{
+          span{
+            display: inline-block;
+            // font-size: 2em;
+            font-size: clamp(2em, 2.3vw, 5.5em);
+            padding: 10px 20px;
+            color: white;
+            background: #f3a57f;
+            border-radius: 5px;
+            &.first{
+              margin-top: 10px;
+              padding: 10px 40px 10px 20px;
+            }
+            &.second{
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+      .footprint{
+        width: 35%;
+        position: absolute;
+        right: 0;
+        bottom: 5%;
+      }
+      .fv-banner{
+        // width: 170px;
+        width: 11%;
+        // max-width: 200px;
+        position: absolute;
+        right: 6%;
+        bottom: 1%;
+      }
+    }
+  }
+}
