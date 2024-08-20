@@ -600,10 +600,12 @@ header .container .wrapper nav ul li:hover a {
   position: relative;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border: solid 1px #e28a69;
 }
 .contact .container .wrapper .btn a {
   color: white;
   letter-spacing: 1px;
+  font-weight: 400;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -630,7 +632,7 @@ header .container .wrapper nav ul li:hover a {
 }
 
 .profile .container {
-  padding-top: 90px;
+  padding: 90px 0 100px 0;
   background: #fcfcf8;
 }
 .profile .container .wrapper {
@@ -718,4 +720,232 @@ header .container .wrapper nav ul li:hover a {
   line-height: 1.7em;
   letter-spacing: 2px;
   font-weight: 500;
+}
+
+.service .container .wrapper {
+  background: #fdfdfa;
+}
+.service .container .wrapper .sec-header {
+  background-image: url(img/bg-service.png);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 120px 0;
+  position: relative;
+}
+.service .container .wrapper .sec-header:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.service .container .wrapper .sec-header h2 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 500;
+  position: relative;
+  z-index: 2;
+}
+.service .container .wrapper .service-wrapper {
+  width: 90%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transform: translateY(-60px);
+          transform: translateY(-60px);
+  position: relative;
+  z-index: 10;
+}
+.service .container .wrapper .service-wrapper .service {
+  width: 27.5%;
+  background: #feeed7;
+  border-radius: 30px;
+  padding: 30px;
+}
+.service .container .wrapper .service-wrapper .service .info {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.service .container .wrapper .service-wrapper .service .service-name {
+  margin-top: 30px;
+  text-align: center;
+}
+.service .container .wrapper .service-wrapper .service .service-name p {
+  font-size: 26px;
+  color: #f08962;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.service .container .wrapper .service-wrapper .service .service-name img {
+  width: 230px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.service .container .wrapper .service-wrapper .service .price {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 1.3em;
+  margin: 20px 0 30px 0;
+}
+.service .container .wrapper .service-wrapper .service .notice {
+  font-size: 12px;
+  width: 90%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  line-height: 1.35em;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.service .container .wrapper .service-wrapper .service .osusume {
+  background: #e19274;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.service .container .wrapper .service-wrapper .service ul {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.service .container .wrapper .service-wrapper .service ul li {
+  font-weight: 500;
+  line-height: 1.5em;
+  position: relative;
+}
+.service .container .wrapper .service-wrapper .service ul li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e19274;
+  position: absolute;
+  top: 50%;
+  left: -17px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.service .container .wrapper .service-wrapper .service .text {
+  margin-top: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(2) {
+  width: 27.5%;
+  background: #ffe3e2;
+  border-radius: 30px;
+  padding: 30px;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(2) .service-name {
+  margin-top: 30px;
+  text-align: center;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(2) .service-name p {
+  font-size: 26px;
+  color: #f08962;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(2) .service-name img {
+  width: 130px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.service .container .wrapper .service-wrapper .service:nth-child(2) > img {
+  margin-top: 17px;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(3) {
+  width: 27.5%;
+  background: #e4f2f2;
+  border-radius: 30px;
+  padding: 30px;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(3) .service-name > img {
+  width: 300px;
+}
+.service .container .wrapper .service-wrapper .service:nth-child(3) .service-name > img:nth-child(4) {
+  width: 200px;
+}
+.service .container .wrapper .notice2 {
+  text-align: center;
+  font-weight: 500;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  letter-spacing: 1px;
+}
+.service .container .wrapper .notice3 {
+  text-align: center;
+}
+.service .container .wrapper .notice3 p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.service .container .wrapper .notice3 img {
+  width: 760px;
+  -webkit-transform: translate(-7px, -5px);
+          transform: translate(-7px, -5px);
+}
+.service .container .wrapper .btn {
+  background: #e28a69;
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 50px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: solid 1px #e28a69;
+}
+.service .container .wrapper .btn a {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.service .container .wrapper .btn a:after {
+  position: absolute;
+  border: 1px dashed white;
+  content: "";
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.service .container .wrapper .btn:hover {
+  background: white;
+}
+.service .container .wrapper .btn:hover a {
+  color: #e28a69;
+}
+.service .container .wrapper .btn:hover a:after {
+  border: 1px dashed #e28a69;
 }/*# sourceMappingURL=style.css.map */
