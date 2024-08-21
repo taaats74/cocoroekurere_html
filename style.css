@@ -724,6 +724,7 @@ header .container .wrapper nav ul li:hover a {
 
 .service .container .wrapper {
   background: #fdfdfa;
+  padding-bottom: 110px;
 }
 .service .container .wrapper .sec-header {
   background-image: url(img/bg-service.png);
@@ -948,4 +949,106 @@ header .container .wrapper nav ul li:hover a {
 }
 .service .container .wrapper .btn:hover a:after {
   border: 1px dashed #e28a69;
+}
+
+.flow .container {
+  position: relative;
+}
+.flow .container .wrapper {
+  position: relative;
+  z-index: 2;
+}
+.flow .container .wrapper .sec-header {
+  text-align: center;
+  padding-top: 120px;
+}
+.flow .container .wrapper .sec-header h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+.flow .container .wrapper .sec-header img {
+  width: 180px;
+  margin-top: 15px;
+}
+.flow .container .wrapper .flow-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flow .container .wrapper .flow-wrapper .flow {
+  width: 23.3%;
+  padding: 40px 40px 20px 40px;
+  border: solid 5px #f1bca8;
+  position: relative;
+  border-radius: 25px;
+  background: white;
+}
+.flow .container .wrapper .flow-wrapper .flow h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: #e19274;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.flow .container .wrapper .flow-wrapper .flow p {
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+.flow .container .wrapper .flow-wrapper .flow .arrow {
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  right: -35px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.flow .container .wrapper .flow-wrapper .flow:nth-child(2) {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+.flow .container .wrapper .flow-wrapper .flow:nth-child(3) {
+  -webkit-transform: translateY(120px);
+          transform: translateY(120px);
+}
+.flow .container .wrapper .flow-wrapper .flow:nth-child(4) {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+.flow .container .wrapper .flow-wrapper .flow:nth-child(5) {
+  -webkit-transform: translateY(110px);
+          transform: translateY(110px);
+}
+.flow .container .wrapper .flow-wrapper .flow:nth-child(6) {
+  -webkit-transform: translateY(170px);
+          transform: translateY(170px);
+}
+.flow .container .wrapper .dog {
+  width: 200px;
+  position: absolute;
+  bottom: -35%;
+  left: 5%;
+}
+.flow .container .flow-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 95vw;
+  max-height: 1400px;
 }/*# sourceMappingURL=style.css.map */

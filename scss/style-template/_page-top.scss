@@ -510,6 +510,7 @@ header{
   .container{
     .wrapper{
       background: #fdfdfa;
+      padding-bottom: 110px;
       .sec-header{
         background-image: url(img/bg-service.png);
         background-size: cover;
@@ -728,6 +729,96 @@ header{
           }
         }
       }
+    }
+  }
+}
+
+.flow{
+  .container{
+    position: relative;
+    .wrapper{
+      position: relative;
+      z-index: 2;
+      .sec-header{
+        text-align: center;
+        padding-top: 120px;
+        h2{
+          text-align: center;
+          font-size: 32px;
+          font-weight: 500;
+        }
+        img{
+          width: 180px;
+          margin-top: 15px;
+        }
+      }
+      .flow-wrapper{
+        width: 90%;
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .flow{
+          width: 23.3%;
+          padding: 40px 40px 20px 40px;
+          border: solid 5px #f1bca8;
+          position: relative;
+          border-radius: 25px;
+          background: white;
+          h3{
+            text-align: center;
+            font-weight: 500;
+            font-size: 22px;
+            color: #e19274;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+          }
+          p{
+            margin-top: 20px;
+            font-weight: 500;
+            line-height: 1.3em;
+            letter-spacing: 1px;
+          }
+          .arrow{
+            width: 30px;
+            position: absolute;
+            top: 50%;
+            right: -35px;
+            transform: translateY(-50%);
+          }
+          &:nth-child(2){
+            transform: translateY(60px);
+          }
+          &:nth-child(3){
+            transform: translateY(120px);
+          }
+          &:nth-child(4){
+            transform: translateY(50px);
+          }
+          &:nth-child(5){
+            transform: translateY(110px);
+          }
+          &:nth-child(6){
+            transform: translateY(170px);
+          }
+        }
+      }
+      .dog{
+        width: 200px;
+        position: absolute;
+        bottom: -35%;
+        left: 5%;
+      }
+    }
+    .flow-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      height: 95vw;
+      max-height: 1400px;
     }
   }
 }
