@@ -62,3 +62,22 @@
     });
   });
 }
+
+{
+  const spMenuIcon = document.querySelector(".menu-icon");
+  const spMenu = document.querySelector(".sp-menu");
+  const spMenuLists = document.querySelectorAll(".sp-menu ul li a");
+
+  spMenuIcon.addEventListener("click", () => {
+    spMenuIcon.classList.toggle("active");
+    spMenu.classList.toggle("active");
+  });
+
+  spMenuLists.forEach((list) => {
+    list.addEventListener("click", () => {
+      console.log(list);
+      spMenu.classList.toggle("active");
+      spMenuIcon.classList.toggle("active");
+    });
+  });
+}
