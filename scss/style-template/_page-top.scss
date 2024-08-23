@@ -6,7 +6,7 @@
 
 .zen-maru-gothic-regular {
   font-family: "Zen Maru Gothic", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -25,9 +25,10 @@
 body {
   // font-family: 'TsukuARdGothic-Regular', sans-serif;
   font-family: "Zen Maru Gothic", serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
-  color: #725d53;
+  // color: #725d53;
+  color: #483b35;
   background-image: url(img/bg.png);
   background-size: cover;
   background-position: center;
@@ -106,8 +107,9 @@ header{
             color: white;
             background: #f3a57f;
             border-radius: 5px;
-            font-weight: 400;
-            letter-spacing: 3px;
+
+            font-weight: 500;
+            letter-spacing: 5px;
             &.first{
               margin-top: 10px;
               padding: 10px 40px 10px 20px;
@@ -269,7 +271,7 @@ header{
         .text{
           p{
             font-size: 2em;
-            font-weight: 400;
+            font-weight: 500;
             white-space: nowrap;
           }
           img{
@@ -403,7 +405,8 @@ header{
         a{
           color: white;
           letter-spacing: 1px;
-          font-weight: 400;
+
+          font-weight: 500;
           transition: .3s;
           &:after {
             position: absolute;
@@ -469,7 +472,8 @@ header{
               &:nth-child(1){
                 font-size: 26px;
                 letter-spacing: 3px;
-                font-weight: 400;
+
+                font-weight: 500;
               }
               &:nth-child(2){
                 letter-spacing: 3px;
@@ -600,7 +604,8 @@ header{
             padding: 7px;
             font-size: 14px;
             border-radius: 5px;
-            font-weight: 400;
+
+            font-weight: 500;
             margin-top: 20px;
           }
           ul{
@@ -705,7 +710,8 @@ header{
         a {
           color: white;
           letter-spacing: 1px;
-          font-weight: 400;
+
+          font-weight: 500;
           transition: .3s;
 
           &:after {
@@ -879,7 +885,8 @@ header{
                 color: white;
                 padding: 7px;
                 border-radius: 5px;
-                font-weight: 400;
+
+                font-weight: 500;
                 span{
                   margin-left: 12px;
                 }
@@ -887,7 +894,8 @@ header{
               .type{
                 color: #e19274;
                 text-align: center;
-                font-weight: 400;
+
+                font-weight: 500;
                 margin-top: 10px;
                 display: flex;
                 justify-content: center;
@@ -897,7 +905,8 @@ header{
                 }
               }
               .text{
-                font-weight: 400;
+
+                font-weight: 500;
                 letter-spacing: 1px;
                 margin-top: 10px;
                 line-height: 1.4em;
@@ -1014,8 +1023,9 @@ header{
     margin-bottom: 100px;
     h2{
       font-size: 24px;
-      font-weight: 400;
+      font-weight: 500;
       margin-bottom: 40px;
+      letter-spacing: 2px;
     }
     .wrapper{
       display: flex;
@@ -1026,7 +1036,7 @@ header{
         ul{
           // margin-top: 40px;
           li{
-            font-weight: 400;
+            font-weight: 500;
             border-bottom: solid 1px #dbdbdb;
             .header{
               color: #e19274;
@@ -1049,6 +1059,7 @@ header{
               margin-left: 20px;
               p{
                 line-height: 1.5em;
+                letter-spacing: 2px;
               }
             }
             &+li{
@@ -1067,7 +1078,8 @@ header{
             margin-top: 30px;
           }
           p{
-            font-weight: 400;
+            font-weight: 500;
+            letter-spacing: 2px;
           }
           iframe{
             width: 100%;
@@ -1105,7 +1117,7 @@ footer{
             margin-right: 30px;
             a{
               color: white;
-              font-weight: 400;
+              font-weight: 500;
             }
             &:nth-child(7){
               background: white;
@@ -1118,7 +1130,7 @@ footer{
               a {
                 color: #e28a69;
                 letter-spacing: 1px;
-                font-weight: 400;
+                font-weight: 500;
                 transition: .3s;
                 &:after {
                   position: absolute;
@@ -1229,7 +1241,8 @@ footer{
               color: white;
               background: #f3a57f;
               border-radius: 5px;
-              font-weight: 400;
+
+              font-weight: 500;
               letter-spacing: 3px;
 
               &.first {
@@ -1280,7 +1293,8 @@ footer{
           .text {
             p {
               font-size: 1.7em;
-              font-weight: 400;
+
+              font-weight: 500;
               white-space: nowrap;
             }
 
@@ -1480,7 +1494,8 @@ footer{
               padding: 7px;
               font-size: 14px;
               border-radius: 5px;
-              font-weight: 400;
+
+              font-weight: 500;
               margin-top: 20px;
             }
 
@@ -1602,7 +1617,8 @@ footer{
           a {
             color: white;
             letter-spacing: 1px;
-            font-weight: 400;
+
+            font-weight: 500;
             transition: .3s;
 
             &:after {
@@ -1801,7 +1817,8 @@ footer{
                   color: white;
                   padding: 7px;
                   border-radius: 5px;
-                  font-weight: 400;
+
+                  font-weight: 500;
                   font-size: .9em;
 
                   span {
@@ -1812,7 +1829,8 @@ footer{
                 .type {
                   color: #e19274;
                   text-align: center;
-                  font-weight: 400;
+
+                  font-weight: 500;
                   margin-top: 10px;
                   display: flex;
                   justify-content: center;
@@ -1826,7 +1844,8 @@ footer{
                 }
 
                 .text {
-                  font-weight: 400;
+
+                  font-weight: 500;
                   letter-spacing: 1px;
                   margin-top: 10px;
                   line-height: 1.4em;
@@ -1953,7 +1972,8 @@ footer{
 
       h2 {
         font-size: 24px;
-        font-weight: 400;
+
+        font-weight: 500;
         margin-bottom: 40px;
       }
 
@@ -1969,7 +1989,8 @@ footer{
 
             // margin-top: 40px;
             li {
-              font-weight: 400;
+
+              font-weight: 500;
               border-bottom: solid 1px #dbdbdb;
 
               .header {
@@ -2018,7 +2039,8 @@ footer{
             }
 
             p {
-              font-weight: 400;
+
+              font-weight: 500;
             }
 
             iframe {
@@ -2063,7 +2085,8 @@ footer{
 
               a {
                 color: white;
-                font-weight: 400;
+
+                font-weight: 500;
                 font-size: .9em;
               }
 
@@ -2079,7 +2102,8 @@ footer{
                 a {
                   color: #e28a69;
                   letter-spacing: 1px;
-                  font-weight: 400;
+
+                  font-weight: 500;
                   transition: .3s;
 
                   &:after {
@@ -2189,7 +2213,8 @@ footer{
               color: white;
               background: #f3a57f;
               border-radius: 5px;
-              font-weight: 400;
+
+              font-weight: 500;
               letter-spacing: 3px;
 
               &.first {
@@ -2383,7 +2408,8 @@ footer{
           .text {
             p {
               font-size: 1.7em;
-              font-weight: 400;
+
+              font-weight: 500;
               white-space: nowrap;
             }
 
@@ -2535,7 +2561,8 @@ footer{
           a {
             color: white;
             letter-spacing: 1px;
-            font-weight: 400;
+
+            font-weight: 500;
             transition: .3s;
 
             &:after {
@@ -2669,7 +2696,8 @@ footer{
               padding: 7px;
               font-size: 14px;
               border-radius: 5px;
-              font-weight: 400;
+
+              font-weight: 500;
               margin-top: 20px;
             }
 
@@ -2791,7 +2819,8 @@ footer{
           a {
             color: white;
             letter-spacing: 1px;
-            font-weight: 400;
+
+            font-weight: 500;
             transition: .3s;
 
             &:after {
@@ -2990,7 +3019,8 @@ footer{
                   color: white;
                   padding: 7px;
                   border-radius: 5px;
-                  font-weight: 400;
+
+                  font-weight: 500;
                   font-size: .9em;
 
                   span {
@@ -3001,7 +3031,8 @@ footer{
                 .type {
                   color: #e19274;
                   text-align: center;
-                  font-weight: 400;
+
+                  font-weight: 500;
                   margin-top: 10px;
                   display: flex;
                   justify-content: center;
@@ -3015,7 +3046,8 @@ footer{
                 }
 
                 .text {
-                  font-weight: 400;
+
+                  font-weight: 500;
                   letter-spacing: 1px;
                   margin-top: 10px;
                   line-height: 1.4em;
@@ -3150,7 +3182,8 @@ footer{
 
       h2 {
         font-size: 24px;
-        font-weight: 400;
+
+        font-weight: 500;
         margin-bottom: 40px;
       }
 
@@ -3166,7 +3199,8 @@ footer{
 
             // margin-top: 40px;
             li {
-              font-weight: 400;
+
+              font-weight: 500;
               border-bottom: solid 1px #dbdbdb;
 
               .header {
@@ -3215,7 +3249,8 @@ footer{
             }
 
             p {
-              font-weight: 400;
+
+              font-weight: 500;
             }
 
             iframe {
@@ -3260,7 +3295,8 @@ footer{
 
               a {
                 color: white;
-                font-weight: 400;
+
+                font-weight: 500;
                 font-size: .9em;
               }
 
@@ -3276,7 +3312,8 @@ footer{
                 a {
                   color: #e28a69;
                   letter-spacing: 1px;
-                  font-weight: 400;
+
+                  font-weight: 500;
                   transition: .3s;
 
                   &:after {
@@ -3408,7 +3445,8 @@ footer{
       transition: .8s;
       opacity: 0;
       font-family: YuGothic, 'Yu Gothic', sans-serif;
-      font-weight: 400;
+
+      font-weight: 500;
       font-style: normal;
 
       &.active {
@@ -3436,7 +3474,8 @@ footer{
 
         li {
           font-family: "Bebas Neue", sans-serif;
-          font-weight: 400;
+
+          font-weight: 500;
           font-style: normal;
           font-size: 1.4em;
           letter-spacing: 2px;
@@ -3504,7 +3543,8 @@ footer{
               color: white;
               background: #f3a57f;
               border-radius: 5px;
-              font-weight: 400;
+
+              font-weight: 500;
               letter-spacing: 3px;
               &.second {
                 margin-top: 10px;
@@ -3753,7 +3793,7 @@ footer{
 
             // background: blue;
             .content {
-              width: 60%;
+              width: 70%;
               margin: 0 auto;
               padding: 80px 10px 10px 15px;
               background: #fdf4f4;

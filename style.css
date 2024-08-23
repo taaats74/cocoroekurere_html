@@ -173,7 +173,7 @@ select {
 
 .zen-maru-gothic-regular {
   font-family: "Zen Maru Gothic", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -191,9 +191,9 @@ select {
 
 body {
   font-family: "Zen Maru Gothic", serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
-  color: #725d53;
+  color: #483b35;
   background-image: url(img/bg.png);
   background-size: cover;
   background-position: center;
@@ -278,8 +278,8 @@ header .container .wrapper nav ul li:hover a {
   color: white;
   background: #f3a57f;
   border-radius: 5px;
-  font-weight: 400;
-  letter-spacing: 3px;
+  font-weight: 500;
+  letter-spacing: 5px;
 }
 .fv .container .wrapper .text-wrapper h2 span.first {
   margin-top: 10px;
@@ -455,7 +455,7 @@ header .container .wrapper nav ul li:hover a {
 }
 .message .container .wrapper h2 .text p {
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 500;
   white-space: nowrap;
 }
 .message .container .wrapper h2 .text img {
@@ -607,7 +607,7 @@ header .container .wrapper nav ul li:hover a {
 .contact .container .wrapper .btn a {
   color: white;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -688,7 +688,7 @@ header .container .wrapper nav ul li:hover a {
 .profile .container .wrapper .content-wrapper .text-wrapper .name span:nth-child(1) {
   font-size: 26px;
   letter-spacing: 3px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .profile .container .wrapper .content-wrapper .text-wrapper .name span:nth-child(2) {
   letter-spacing: 3px;
@@ -821,7 +821,7 @@ header .container .wrapper nav ul li:hover a {
   padding: 7px;
   font-size: 14px;
   border-radius: 5px;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 20px;
 }
 .service .container .wrapper .service-wrapper .service ul {
@@ -925,7 +925,7 @@ header .container .wrapper nav ul li:hover a {
 .service .container .wrapper .btn a {
   color: white;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1118,7 +1118,7 @@ header .container .wrapper nav ul li:hover a {
   color: white;
   padding: 7px;
   border-radius: 5px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .name span {
   margin-left: 12px;
@@ -1126,7 +1126,7 @@ header .container .wrapper nav ul li:hover a {
 .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .type {
   color: #e19274;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 10px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1142,7 +1142,7 @@ header .container .wrapper nav ul li:hover a {
   margin-right: 10px;
 }
 .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .text {
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   margin-top: 10px;
   line-height: 1.4em;
@@ -1243,8 +1243,9 @@ header .container .wrapper nav ul li:hover a {
 }
 .salon-info .container h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 40px;
+  letter-spacing: 2px;
 }
 .salon-info .container .wrapper {
   display: -webkit-box;
@@ -1264,7 +1265,7 @@ header .container .wrapper nav ul li:hover a {
   width: 48%;
 }
 .salon-info .container .wrapper .info-wrapper ul li {
-  font-weight: 400;
+  font-weight: 500;
   border-bottom: solid 1px #dbdbdb;
 }
 .salon-info .container .wrapper .info-wrapper ul li .header {
@@ -1290,6 +1291,7 @@ header .container .wrapper nav ul li:hover a {
 }
 .salon-info .container .wrapper .info-wrapper ul li .body-wrapper p {
   line-height: 1.5em;
+  letter-spacing: 2px;
 }
 .salon-info .container .wrapper .info-wrapper ul li + li .header {
   margin-top: 20px;
@@ -1302,7 +1304,8 @@ header .container .wrapper nav ul li:hover a {
   margin-top: 30px;
 }
 .salon-info .container .wrapper .map-wrapper .map p {
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 .salon-info .container .wrapper .map-wrapper .map iframe {
   width: 100%;
@@ -1354,7 +1357,7 @@ footer .container .wrapper nav ul li {
 }
 footer .container .wrapper nav ul li a {
   color: white;
-  font-weight: 400;
+  font-weight: 500;
 }
 footer .container .wrapper nav ul li:nth-child(7) {
   background: white;
@@ -1368,7 +1371,7 @@ footer .container .wrapper nav ul li:nth-child(7) {
 footer .container .wrapper nav ul li:nth-child(7) a {
   color: #e28a69;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1469,7 +1472,7 @@ footer .container .wrapper .copy {
     color: white;
     background: #f3a57f;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 3px;
   }
   .fv .container .wrapper .text-wrapper h2 span.first {
@@ -1505,7 +1508,7 @@ footer .container .wrapper .copy {
   }
   .message .container .wrapper h2 .text p {
     font-size: 1.7em;
-    font-weight: 400;
+    font-weight: 500;
     white-space: nowrap;
   }
   .message .container .wrapper h2 .text img {
@@ -1694,7 +1697,7 @@ footer .container .wrapper .copy {
     padding: 7px;
     font-size: 14px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 20px;
   }
   .service .container .wrapper .service-wrapper .service ul {
@@ -1800,7 +1803,7 @@ footer .container .wrapper .copy {
   .service .container .wrapper .btn a {
     color: white;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -1991,7 +1994,7 @@ footer .container .wrapper .copy {
     color: white;
     padding: 7px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.9em;
   }
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .name span {
@@ -2000,7 +2003,7 @@ footer .container .wrapper .copy {
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .type {
     color: #e19274;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 10px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2021,7 +2024,7 @@ footer .container .wrapper .copy {
     margin-right: 10px;
   }
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .text {
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
     margin-top: 10px;
     line-height: 1.4em;
@@ -2117,7 +2120,7 @@ footer .container .wrapper .copy {
   }
   .salon-info .container h2 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 40px;
   }
   .salon-info .container .wrapper {
@@ -2138,7 +2141,7 @@ footer .container .wrapper .copy {
     width: 50%;
   }
   .salon-info .container .wrapper .info-wrapper ul li {
-    font-weight: 400;
+    font-weight: 500;
     border-bottom: solid 1px #dbdbdb;
   }
   .salon-info .container .wrapper .info-wrapper ul li .header {
@@ -2176,7 +2179,7 @@ footer .container .wrapper .copy {
     margin-top: 30px;
   }
   .salon-info .container .wrapper .map-wrapper .map p {
-    font-weight: 400;
+    font-weight: 500;
   }
   .salon-info .container .wrapper .map-wrapper .map iframe {
     width: 100%;
@@ -2227,7 +2230,7 @@ footer .container .wrapper .copy {
   }
   footer .container .wrapper nav ul li a {
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.9em;
   }
   footer .container .wrapper nav ul li:nth-child(7) {
@@ -2242,7 +2245,7 @@ footer .container .wrapper .copy {
   footer .container .wrapper nav ul li:nth-child(7) a {
     color: #e28a69;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -2339,7 +2342,7 @@ footer .container .wrapper .copy {
     color: white;
     background: #f3a57f;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 3px;
   }
   .fv .container .wrapper .text-wrapper h2 span.first {
@@ -2515,7 +2518,7 @@ footer .container .wrapper .copy {
   }
   .message .container .wrapper h2 .text p {
     font-size: 1.7em;
-    font-weight: 400;
+    font-weight: 500;
     white-space: nowrap;
   }
   .message .container .wrapper h2 .text img {
@@ -2664,7 +2667,7 @@ footer .container .wrapper .copy {
   .contact .container .wrapper .btn a {
     color: white;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -2787,7 +2790,7 @@ footer .container .wrapper .copy {
     padding: 7px;
     font-size: 14px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 20px;
   }
   .service .container .wrapper .service-wrapper .service ul {
@@ -2893,7 +2896,7 @@ footer .container .wrapper .copy {
   .service .container .wrapper .btn a {
     color: white;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -3084,7 +3087,7 @@ footer .container .wrapper .copy {
     color: white;
     padding: 7px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.9em;
   }
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .name span {
@@ -3093,7 +3096,7 @@ footer .container .wrapper .copy {
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .type {
     color: #e19274;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 10px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -3114,7 +3117,7 @@ footer .container .wrapper .copy {
     margin-right: 10px;
   }
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner .text {
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
     margin-top: 10px;
     line-height: 1.4em;
@@ -3213,7 +3216,7 @@ footer .container .wrapper .copy {
   }
   .salon-info .container h2 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 40px;
   }
   .salon-info .container .wrapper {
@@ -3234,7 +3237,7 @@ footer .container .wrapper .copy {
     width: 50%;
   }
   .salon-info .container .wrapper .info-wrapper ul li {
-    font-weight: 400;
+    font-weight: 500;
     border-bottom: solid 1px #dbdbdb;
   }
   .salon-info .container .wrapper .info-wrapper ul li .header {
@@ -3272,7 +3275,7 @@ footer .container .wrapper .copy {
     margin-top: 30px;
   }
   .salon-info .container .wrapper .map-wrapper .map p {
-    font-weight: 400;
+    font-weight: 500;
   }
   .salon-info .container .wrapper .map-wrapper .map iframe {
     width: 100%;
@@ -3323,7 +3326,7 @@ footer .container .wrapper .copy {
   }
   footer .container .wrapper nav ul li a {
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.9em;
   }
   footer .container .wrapper nav ul li:nth-child(7) {
@@ -3338,7 +3341,7 @@ footer .container .wrapper .copy {
   footer .container .wrapper nav ul li:nth-child(7) a {
     color: #e28a69;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -3444,7 +3447,7 @@ footer .container .wrapper .copy {
     transition: 0.8s;
     opacity: 0;
     font-family: YuGothic, "Yu Gothic", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
   }
   .sp-wrapper .sp-menu.active {
@@ -3470,7 +3473,7 @@ footer .container .wrapper .copy {
   }
   .sp-wrapper .sp-menu ul li {
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 1.4em;
     letter-spacing: 2px;
@@ -3533,7 +3536,7 @@ footer .container .wrapper .copy {
     color: white;
     background: #f3a57f;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 3px;
   }
   .fv-sp .container .wrapper .text-wrapper h2 span.second {
@@ -3778,7 +3781,7 @@ footer .container .wrapper .copy {
     background-size: cover;
   }
   .features .container .wrapper .content-wrapper .text-content-wrapper .content {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 80px 10px 10px 15px;
     background: #fdf4f4;
