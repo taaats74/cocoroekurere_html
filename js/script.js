@@ -81,3 +81,83 @@
     });
   });
 }
+
+{
+  const targetElement = document.querySelectorAll('.animation-target');
+  const topTargetElement = document.querySelectorAll('.top-animation-target');
+  const topTargetElementSp = document.querySelectorAll('.top-animation-target-sp');
+
+  console.log(targetElement);
+
+  // ロードされたらトップのアニメーションが読み込まれる
+  window.addEventListener('load', function() {
+    topTargetElement.forEach(function(element, index) {
+      // index を利用して時間差を設定（0.5秒ごとに遅延を追加）
+      const delay = index * 0.7; // 各要素に0.5秒の差をつける
+      element.style.transitionDelay = `${delay}s`;
+
+      // 'show' クラスを追加してアニメーションを開始
+      element.classList.add('show');
+    });
+  });
+
+  window.addEventListener('load', function() {
+    topTargetElementSp.forEach(function(element, index) {
+      // index を利用して時間差を設定（0.5秒ごとに遅延を追加）
+      const delay = index * 0.7; // 各要素に0.5秒の差をつける
+      element.style.transitionDelay = `${delay}s`;
+
+      // 'show' クラスを追加してアニメーションを開始
+      element.classList.add('show');
+    });
+  });
+
+  window.addEventListener('scroll', () => {
+    for (let i = 0; i < targetElement.length; i++){
+      const getElementDistance = targetElement[i].getBoundingClientRect().top + targetElement[i].clientHeight * .5;
+      console.log(getElementDistance);
+      if (window.innerHeight > getElementDistance) {
+        targetElement[i].classList.add('show');
+      }
+    }
+  });
+}
+
+{
+  // ヘッダーとフッターのスムーススクロール
+  $(function () {
+    let pcMenu = $('header a');
+  pcMenu.click(function(){
+    let speed = 1500;
+    let href= $(this).attr("href");
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let position = target.offset().top - 70;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+    });
+  });
+
+  $(function () {
+    let pcMenuFooter = $('footer a');
+  pcMenuFooter.click(function(){
+    let speed = 1500;
+    let href= $(this).attr("href");
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let position = target.offset().top - 70;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+    });
+  });
+
+  $(function () {
+    let spMenu = $('.sp-menu a');
+  spMenu.click(function(){
+    let speed = 1500;
+    let href= $(this).attr("href");
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let position = target.offset().top - 70;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+    });
+  });
+}

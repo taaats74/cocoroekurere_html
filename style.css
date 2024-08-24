@@ -205,6 +205,28 @@ img {
   vertical-align: bottom;
 }
 
+.to-up {
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+.to-up.show {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.to-show {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+.to-show.show {
+  opacity: 1;
+}
+
 header .container {
   width: 95%;
   max-width: 1400px;
@@ -284,6 +306,10 @@ header .container .wrapper nav ul li:hover a {
 .fv .container .wrapper .text-wrapper h2 span.first {
   margin-top: 10px;
   padding: 10px 40px 10px 20px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .fv .container .wrapper .text-wrapper h2 span.second {
   margin-top: 20px;
@@ -4189,7 +4215,7 @@ footer .container .wrapper .copy {
   }
   .service .container .wrapper .service-wrapper .service ul li {
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5em;
     position: relative;
   }
@@ -5258,10 +5284,10 @@ footer .container .wrapper .copy {
     padding: 30px 0;
   }
   .features .container .wrapper .content-wrapper .text-content-wrapper .content {
-    width: 70%;
+    width: 65%;
     max-width: 280px;
     margin: 0 auto;
-    padding: 100px 30px 30px 30px;
+    padding: 80px 30px 30px 30px;
     background: #fdf4f4;
     font-weight: 500;
     border: solid 1px #f5e4e4;
@@ -5885,16 +5911,16 @@ footer .container .wrapper .copy {
   }
   .customer-voice .container .wrapper .slick-container {
     position: relative;
-    width: 70%;
-    max-width: 280px;
+    width: 80%;
+    max-width: 440px;
     margin: 0 auto;
     margin-top: 30px;
   }
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice {
-    padding: 30px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
   .customer-voice .container .wrapper .slick-container .voice-wrapper .voice .inner {
-    width: 75%;
+    width: 80%;
     padding: 80px 13px 10px 13px;
     background: white;
     -webkit-box-shadow: 9px 7px 0 #f1bca8;
@@ -5917,7 +5943,7 @@ footer .container .wrapper .copy {
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: absolute;
-    top: -6%;
+    top: -35px;
     left: 12%;
     right: 12%;
   }
@@ -5978,10 +6004,10 @@ footer .container .wrapper .copy {
     color: #e19274;
   }
   .customer-voice .container .wrapper .slick-container .arrow.prev {
-    left: -15%;
+    left: -12%;
   }
   .customer-voice .container .wrapper .slick-container .arrow.next {
-    right: -15%;
+    right: -11.7%;
   }
   .customer-voice .container .wrapper .slick-container .slick-dots li {
     margin: 0 6px;

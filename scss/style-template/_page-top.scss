@@ -40,6 +40,26 @@ img {
   vertical-align: bottom;
 }
 
+.to-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 2s;
+
+  &.show {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.to-show {
+  opacity: 0;
+  transition: 2s;
+
+  &.show {
+    opacity: 1;
+  }
+}
+
 header{
   .container{
     width: 95%;
@@ -113,6 +133,8 @@ header{
             &.first{
               margin-top: 10px;
               padding: 10px 40px 10px 20px;
+              transition: 2s;
+              animation-delay: .5s;
             }
             &.second{
               margin-top: 20px;
@@ -4239,7 +4261,7 @@ footer{
 
               li {
                 font-weight: 500;
-                font-size: 1em;
+                font-size: .9em;
                 line-height: 1.5em;
                 position: relative;
 
@@ -5403,10 +5425,10 @@ footer{
             padding: 30px 0;
             // background: blue;
             .content {
-              width: 70%;
+              width: 65%;
               max-width: 280px;
               margin: 0 auto;
-              padding: 100px 30px 30px 30px;
+              padding: 80px 30px 30px 30px;
               background: #fdf4f4;
               font-weight: 500;
               border: solid 1px #f5e4e4;
@@ -6079,18 +6101,18 @@ footer{
 
         .slick-container {
           position: relative;
-          width: 70%;
-          max-width: 280px;
+          width: 80%;
+          max-width: 440px;
           margin: 0 auto;
           margin-top: 30px;
 
           .voice-wrapper {
             .voice {
-              padding: 30px 0 40px 0;
+              padding: 40px 0 40px 0;
               // background: blue;
 
               .inner {
-                width: 75%;
+                width: 80%;
                 padding: 80px 13px 10px 13px;
                 background: white;
                 box-shadow: 9px 7px 0 #f1bca8;
@@ -6103,7 +6125,7 @@ footer{
                   align-items: last baseline;
                   justify-content: space-between;
                   position: absolute;
-                  top: -6%;
+                  top: -35px;
                   left: 12%;
                   right: 12%;
 
@@ -6171,11 +6193,11 @@ footer{
             }
 
             &.prev {
-              left: -15%;
+              left: -12%;
             }
 
             &.next {
-              right: -15%;
+              right: -11.7%;
             }
           }
           .slick-dots {
